@@ -1,0 +1,830 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="theme-color" content="#0b1220" />
+
+  <title>Brighton CO Hair Salon | Color, Cuts, Lashes, Waxing + More | Anudo Salon</title>
+  <meta name="description" content="Looking for a Brighton CO hair salon with modern cuts, dimensional color, balayage, extensions, lashes, waxing, tanning, teeth whitening, and head spa treatments? Visit Anudo Salon in Brighton. Call (303) 835-2375." />
+  <link rel="canonical" href="https://brightoncohairsalon.com/" />
+
+  <!-- Basic SEO -->
+  <meta name="robots" content="index,follow,max-image-preview:large" />
+
+  <!-- Favicon (self-contained, no file needed). Replace later with real favicon files if you want. -->
+  <link rel="icon" type="image/svg+xml"
+        href='data:image/svg+xml;utf8,
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+          <defs>
+            <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+              <stop stop-color="%2322c55e" offset="0"/>
+              <stop stop-color="%2338bdf8" offset="1"/>
+            </linearGradient>
+          </defs>
+          <rect width="64" height="64" rx="14" fill="%230b1220"/>
+          <circle cx="32" cy="32" r="22" fill="url(%23g)" opacity="0.95"/>
+          <text x="32" y="40" text-anchor="middle" font-size="26" font-family="Arial" font-weight="700" fill="%230b1220">A</text>
+        </svg>' />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Brighton CO Hair Salon | Anudo Salon" />
+  <meta property="og:description" content="Cuts, color, balayage, extensions, lashes, waxing, spray tan, UV tanning, teeth whitening, permanent jewelry, and head spa treatments in Brighton, CO." />
+  <meta property="og:url" content="https://brightoncohairsalon.com/" />
+  <meta property="og:type" content="website" />
+
+  <style>
+    :root{
+      --bg: #070b12;
+      --panel: rgba(255,255,255,0.06);
+      --panel2: rgba(255,255,255,0.10);
+      --text: rgba(255,255,255,0.92);
+      --muted: rgba(255,255,255,0.72);
+      --muted2: rgba(255,255,255,0.62);
+      --line: rgba(255,255,255,0.14);
+      --brandA: #22c55e;
+      --brandB: #38bdf8;
+      --warn: #fbbf24;
+      --shadow: 0 16px 55px rgba(0,0,0,0.45);
+      --radius: 18px;
+      --radius2: 26px;
+      --max: 1120px;
+      --btn: linear-gradient(135deg, var(--brandA), var(--brandB));
+      --btn2: rgba(255,255,255,0.10);
+      --focus: 0 0 0 4px rgba(56,189,248,0.20);
+    }
+    *{box-sizing:border-box}
+    html,body{margin:0;padding:0;background:radial-gradient(1200px 900px at 15% 10%, rgba(56,189,248,0.16), transparent 60%),
+                                   radial-gradient(1100px 800px at 90% 20%, rgba(34,197,94,0.14), transparent 55%),
+                                   var(--bg);
+              color:var(--text); font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Helvetica Neue", Helvetica, "Noto Sans", "Liberation Sans", sans-serif;
+              line-height:1.5}
+    a{color:inherit}
+    .wrap{max-width:var(--max); margin:0 auto; padding:0 18px}
+    .skip{position:absolute; left:-999px; top:auto; width:1px; height:1px; overflow:hidden}
+    .skip:focus{left:12px; top:12px; width:auto; height:auto; padding:10px 12px; border-radius:12px; background:#0b1220; outline:var(--focus); z-index:9999}
+
+    /* Header */
+    header{
+      position:sticky; top:0; z-index:50;
+      backdrop-filter: blur(14px);
+      background: rgba(7,11,18,0.70);
+      border-bottom: 1px solid var(--line);
+    }
+    .hbar{display:flex; align-items:center; justify-content:space-between; padding:14px 0; gap:14px}
+    .brand{display:flex; align-items:center; gap:10px; min-width: 210px}
+    .mark{
+      width:38px; height:38px; border-radius:12px;
+      background: linear-gradient(135deg, rgba(34,197,94,0.95), rgba(56,189,248,0.95));
+      display:grid; place-items:center;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.35);
+    }
+    .mark span{font-weight:900; color:#071018}
+    .brand strong{display:block; letter-spacing:0.2px}
+    .brand small{display:block; color:var(--muted2); margin-top:1px}
+    nav{display:flex; align-items:center; gap:10px; flex-wrap:wrap; justify-content:flex-end}
+    .pill{padding:9px 12px; border-radius:999px; border:1px solid var(--line); background: rgba(255,255,255,0.04); text-decoration:none}
+    .pill:hover{background: rgba(255,255,255,0.07)}
+    .call{
+      display:flex; align-items:center; gap:10px;
+      padding:9px 12px; border-radius:999px;
+      border:1px solid rgba(34,197,94,0.45);
+      background: rgba(34,197,94,0.12);
+      text-decoration:none;
+      white-space:nowrap;
+    }
+    .call b{font-weight:900}
+    .call:hover{background: rgba(34,197,94,0.18)}
+    .btn{
+      display:inline-flex; align-items:center; justify-content:center;
+      gap:10px;
+      padding:12px 16px;
+      border-radius:999px;
+      border:1px solid rgba(255,255,255,0.12);
+      text-decoration:none;
+      background: var(--btn);
+      color:#071018;
+      font-weight:900;
+      box-shadow: 0 14px 45px rgba(0,0,0,0.40);
+    }
+    .btn:hover{filter:brightness(1.02)}
+    .btn:focus{outline:none; box-shadow: var(--shadow), var(--focus)}
+    .btn.secondary{
+      background: var(--btn2);
+      color: var(--text);
+      border: 1px solid var(--line);
+      box-shadow: none;
+      font-weight:800;
+    }
+    .btn.secondary:hover{background: rgba(255,255,255,0.13)}
+    .btn.small{padding:10px 14px; font-size:0.95rem}
+
+    /* Hero */
+    .hero{padding:42px 0 22px}
+    .grid{display:grid; grid-template-columns: 1.2fr 0.8fr; gap:18px; align-items:stretch}
+    @media (max-width: 940px){ .grid{grid-template-columns:1fr} nav{justify-content:flex-start} .brand{min-width:auto} }
+    .card{
+      border:1px solid var(--line);
+      background: rgba(255,255,255,0.05);
+      border-radius: var(--radius2);
+      box-shadow: var(--shadow);
+    }
+    .heroMain{padding:26px}
+    .kicker{
+      display:inline-flex; align-items:center; gap:10px;
+      padding:8px 12px;
+      border-radius:999px;
+      background: rgba(56,189,248,0.12);
+      border: 1px solid rgba(56,189,248,0.30);
+      color: rgba(255,255,255,0.86);
+      font-weight:800;
+      letter-spacing:0.2px;
+    }
+    h1{margin:14px 0 10px; font-size: clamp(1.8rem, 2.6vw, 2.6rem); line-height:1.15}
+    .lead{color:var(--muted); font-size: 1.06rem; max-width: 62ch}
+    .ctaRow{display:flex; gap:12px; flex-wrap:wrap; margin-top:16px}
+    .trust{display:flex; gap:10px; flex-wrap:wrap; margin-top:14px}
+    .badge{
+      display:inline-flex; align-items:center; gap:10px;
+      padding:10px 12px;
+      border-radius: 14px;
+      border:1px solid var(--line);
+      background: rgba(255,255,255,0.04);
+      color: var(--muted);
+      font-weight:700;
+    }
+    .badge i{width:10px; height:10px; border-radius:99px; background: var(--btn)}
+    .aside{padding:22px}
+    .aside h2{margin:0 0 10px; font-size:1.15rem}
+    .aside p{margin:0 0 12px; color:var(--muted)}
+    .info{
+      display:grid; gap:10px;
+      margin-top:10px;
+    }
+    .row{
+      border:1px solid var(--line);
+      background: rgba(255,255,255,0.04);
+      border-radius: 14px;
+      padding:12px;
+    }
+    .row b{display:block; font-weight:900}
+    .row span{display:block; color:var(--muted); margin-top:2px}
+    .row a{color:rgba(255,255,255,0.92); text-decoration:none}
+    .row a:hover{text-decoration:underline}
+
+    /* Sections */
+    section{padding:26px 0}
+    .secTitle{display:flex; align-items:flex-end; justify-content:space-between; gap:12px; flex-wrap:wrap}
+    .secTitle h2{margin:0; font-size: 1.45rem}
+    .secTitle p{margin:0; color:var(--muted); max-width: 75ch}
+
+    .tiles{
+      margin-top:14px;
+      display:grid;
+      grid-template-columns: repeat(12, 1fr);
+      gap:14px;
+    }
+    .tile{
+      grid-column: span 6;
+      padding:18px;
+      border-radius: var(--radius);
+      border:1px solid var(--line);
+      background: rgba(255,255,255,0.04);
+    }
+    .tile h3{margin:0 0 6px; font-size:1.12rem}
+    .tile p{margin:0; color:var(--muted)}
+    .tile ul{margin:10px 0 0; padding-left: 18px; color: var(--muted)}
+    .tile li{margin:6px 0}
+    @media (max-width: 900px){ .tile{grid-column: span 12} }
+
+    .split{
+      margin-top:14px;
+      display:grid;
+      grid-template-columns: 1fr 1fr;
+      gap:14px;
+    }
+    @media (max-width: 900px){ .split{grid-template-columns:1fr} }
+
+    .panel{
+      padding:18px;
+      border-radius: var(--radius);
+      border:1px solid var(--line);
+      background: rgba(255,255,255,0.04);
+    }
+    .panel h3{margin:0 0 8px}
+    .panel p{margin:0; color:var(--muted)}
+    .steps{margin-top:10px; display:grid; gap:10px}
+    .step{
+      display:flex; gap:12px; align-items:flex-start;
+      padding:12px;
+      border-radius: 14px;
+      border:1px solid rgba(255,255,255,0.10);
+      background: rgba(255,255,255,0.03);
+    }
+    .n{
+      width:30px; height:30px; border-radius: 10px;
+      display:grid; place-items:center;
+      background: rgba(56,189,248,0.14);
+      border:1px solid rgba(56,189,248,0.28);
+      font-weight:900;
+    }
+    .step b{display:block}
+    .step span{display:block; color:var(--muted); margin-top:2px}
+
+    /* FAQ */
+    .faq{margin-top:14px}
+    details{
+      border:1px solid var(--line);
+      background: rgba(255,255,255,0.04);
+      border-radius: 16px;
+      padding: 12px 14px;
+      margin: 10px 0;
+    }
+    summary{
+      cursor:pointer;
+      font-weight:900;
+      list-style:none;
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      gap:12px;
+    }
+    summary::-webkit-details-marker{display:none}
+    .chev{
+      width:28px; height:28px;
+      border-radius: 10px;
+      border:1px solid var(--line);
+      background: rgba(255,255,255,0.03);
+      display:grid; place-items:center;
+      flex: 0 0 auto;
+    }
+    details[open] .chev{background: rgba(34,197,94,0.14); border-color: rgba(34,197,94,0.35)}
+    details p{color:var(--muted); margin:10px 0 0}
+    .fine{color: var(--muted2); font-size: 0.95rem; margin-top: 10px}
+
+    /* Footer */
+    footer{padding:26px 0 34px; border-top:1px solid var(--line); background: rgba(0,0,0,0.18)}
+    .foot{display:flex; justify-content:space-between; gap:12px; flex-wrap:wrap}
+    .foot a{color: var(--muted); text-decoration:none}
+    .foot a:hover{text-decoration:underline}
+    .mini{color: var(--muted2); font-size: 0.92rem}
+  </style>
+
+  <!-- JSON-LD: LocalBusiness + Services + FAQ -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"BeautySalon",
+    "name":"Anudo Salon",
+    "url":"https://anudosalon.com/",
+    "telephone":"+1-303-835-2375",
+    "email":"anudo.salon@gmail.com",
+    "address":{
+      "@type":"PostalAddress",
+      "streetAddress":"119 W. Bridge St., Unit C",
+      "addressLocality":"Brighton",
+      "addressRegion":"CO",
+      "postalCode":"80601",
+      "addressCountry":"US"
+    },
+    "areaServed":[
+      "Brighton CO",
+      "Henderson CO",
+      "Fort Lupton CO",
+      "Lochbuie CO",
+      "Commerce City CO",
+      "Thornton CO",
+      "Reunion CO"
+    ],
+    "openingHoursSpecification":[
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Wednesday","Thursday","Friday"],"opens":"09:00","closes":"19:00"},
+      {"@type":"OpeningHoursSpecification","dayOfWeek":"Saturday","opens":"09:00","closes":"16:00"}
+    ],
+    "priceRange":"$$",
+    "sameAs":[
+      "https://www.facebook.com/anudosalon/"
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"ItemList",
+    "name":"Anudo Salon Services in Brighton, CO",
+    "itemListElement":[
+      {"@type":"ListItem","position":1,"item":{"@type":"Service","name":"Haircuts","areaServed":"Brighton, CO","provider":{"@type":"BeautySalon","name":"Anudo Salon"}}},
+      {"@type":"ListItem","position":2,"item":{"@type":"Service","name":"Hair Color and Balayage","areaServed":"Brighton, CO","provider":{"@type":"BeautySalon","name":"Anudo Salon"}}},
+      {"@type":"ListItem","position":3,"item":{"@type":"Service","name":"Hair Extensions","areaServed":"Brighton, CO","provider":{"@type":"BeautySalon","name":"Anudo Salon"}}},
+      {"@type":"ListItem","position":4,"item":{"@type":"Service","name":"Lash and Brow Services","areaServed":"Brighton, CO","provider":{"@type":"BeautySalon","name":"Anudo Salon"}}},
+      {"@type":"ListItem","position":5,"item":{"@type":"Service","name":"Waxing","areaServed":"Brighton, CO","provider":{"@type":"BeautySalon","name":"Anudo Salon"}}},
+      {"@type":"ListItem","position":6,"item":{"@type":"Service","name":"Spray Tanning","areaServed":"Brighton, CO","provider":{"@type":"BeautySalon","name":"Anudo Salon"}}},
+      {"@type":"ListItem","position":7,"item":{"@type":"Service","name":"UV Tanning Beds","areaServed":"Brighton, CO","provider":{"@type":"BeautySalon","name":"Anudo Salon"}}},
+      {"@type":"ListItem","position":8,"item":{"@type":"Service","name":"Teeth Whitening","areaServed":"Brighton, CO","provider":{"@type":"BeautySalon","name":"Anudo Salon"}}},
+      {"@type":"ListItem","position":9,"item":{"@type":"Service","name":"Head Spa Treatment","areaServed":"Brighton, CO","provider":{"@type":"BeautySalon","name":"Anudo Salon"}}},
+      {"@type":"ListItem","position":10,"item":{"@type":"Service","name":"Permanent Jewelry","areaServed":"Brighton, CO","provider":{"@type":"BeautySalon","name":"Anudo Salon"}}}
+    ]
+  }
+  </script>
+
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"FAQPage",
+    "mainEntity":[
+      {
+        "@type":"Question",
+        "name":"What services can I book at this Brighton CO hair salon partner?",
+        "acceptedAnswer":{
+          "@type":"Answer",
+          "text":"You can book modern haircuts, hair color (including dimensional color and balayage styles), extensions, lash and brow services, waxing, spray tanning, UV tanning beds, teeth whitening, permanent jewelry, and head spa treatments."
+        }
+      },
+      {
+        "@type":"Question",
+        "name":"How do I book an appointment?",
+        "acceptedAnswer":{
+          "@type":"Answer",
+          "text":"For fastest booking, call (303) 835-2375 or use the official booking page on the main website. This funnel site links you directly to those options."
+        }
+      },
+      {
+        "@type":"Question",
+        "name":"Where is the salon located in Brighton, CO?",
+        "acceptedAnswer":{
+          "@type":"Answer",
+          "text":"The salon is located at 119 W. Bridge St., Unit C, Brighton, CO 80601."
+        }
+      },
+      {
+        "@type":"Question",
+        "name":"What are the salon hours?",
+        "acceptedAnswer":{
+          "@type":"Answer",
+          "text":"Open Wednesday through Friday 9:00 AM to 7:00 PM, and Saturday 9:00 AM to 4:00 PM. Closed Monday, Tuesday, and Sunday."
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header>
+  <div class="wrap">
+    <div class="hbar">
+      <div class="brand" aria-label="Site brand">
+        <div class="mark" aria-hidden="true"><span>A</span></div>
+        <div>
+          <strong>Brighton CO Hair Salon</strong>
+          <small>Partner funnel for Anudo Salon</small>
+        </div>
+      </div>
+
+      <nav aria-label="Primary">
+        <a class="pill" href="#services">Services</a>
+        <a class="pill" href="#why">Why choose</a>
+        <a class="pill" href="#location">Location</a>
+        <a class="pill" href="#faq">FAQ</a>
+        <a class="call" href="tel:+13038352375" aria-label="Call Anudo Salon (303) 835-2375">
+          Call <b>(303) 835-2375</b>
+        </a>
+        <a class="btn small" href="https://anudosalon.com/" target="_blank" rel="noopener">Visit Main Site</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <!-- HERO -->
+  <div class="hero">
+    <div class="wrap">
+      <div class="grid">
+        <div class="card heroMain">
+          <div class="kicker">Brighton, Colorado - full service beauty + hair</div>
+          <h1>Brighton CO Hair Salon for Modern Cuts, Dimensional Color, and Confidence-Boosting Results</h1>
+          <p class="lead">
+            If you are searching for a <strong>Brighton CO hair salon</strong> that feels personal and professional, you are in the right place.
+            This quick funnel page connects you to <strong>Anudo Salon</strong> for booking, directions, and service details.
+            Additionally, you will see clear options so you can choose the right appointment without stress.
+          </p>
+
+          <div class="ctaRow">
+            <a class="btn" href="https://www.vagaro.com/anudohairandtanningsalon" target="_blank" rel="noopener">Book Online</a>
+            <a class="btn secondary" href="https://anudosalon.com/services/" target="_blank" rel="noopener">View Official Service Menu</a>
+            <a class="btn secondary" href="#services">Explore Services Below</a>
+          </div>
+
+          <div class="trust" aria-label="Highlights">
+            <span class="badge"><i></i> Local Brighton location</span>
+            <span class="badge"><i></i> Hair + beauty in one visit</span>
+            <span class="badge"><i></i> Clear booking options</span>
+            <span class="badge"><i></i> Easy directions and hours</span>
+          </div>
+
+          <p class="fine">
+            Note: This is a simple partner funnel site built for local SEO. For the official brand pages, pricing, and booking, use the buttons above.
+          </p>
+        </div>
+
+        <aside class="card aside" aria-label="Quick info">
+          <h2>Quick Contact</h2>
+          <p>Call, get directions, or jump to the official booking flow in seconds.</p>
+
+          <div class="info">
+            <div class="row">
+              <b>Phone</b>
+              <span><a href="tel:+13038352375">(303) 835-2375</a></span>
+            </div>
+            <div class="row">
+              <b>Address</b>
+              <span>119 W. Bridge St., Unit C<br/>Brighton, CO 80601</span>
+            </div>
+            <div class="row">
+              <b>Email</b>
+              <span><a href="mailto:anudo.salon@gmail.com">anudo.salon@gmail.com</a></span>
+            </div>
+            <div class="row">
+              <b>Hours</b>
+              <span>Wed - Fri: 9:00 AM - 7:00 PM<br/>Sat: 9:00 AM - 4:00 PM<br/>Mon, Tue & Sun: Closed</span>
+            </div>
+
+            <div class="row">
+              <b>Fast actions</b>
+              <span style="display:flex; gap:10px; flex-wrap:wrap; margin-top:8px">
+                <a class="btn small" href="https://anudosalon.com/" target="_blank" rel="noopener">Main Website</a>
+                <a class="btn small secondary" href="https://www.vagaro.com/anudohairandtanningsalon" target="_blank" rel="noopener">Book Now</a>
+              </span>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </div>
+
+  <!-- SERVICES -->
+  <section id="services">
+    <div class="wrap">
+      <div class="secTitle">
+        <div>
+          <h2>Services Offered</h2>
+          <p>
+            A strong salon experience is not just one service. Instead, it is the full plan: a great cut, the right color approach, plus details like lashes, waxing, tanning, or whitening.
+            That is why this Brighton CO hair salon partner covers multiple categories, so you can book what fits your goals.
+          </p>
+        </div>
+        <a class="btn small" href="https://anudosalon.com/services/" target="_blank" rel="noopener">Official Services Page</a>
+      </div>
+
+      <div class="tiles">
+        <div class="tile">
+          <h3>Haircuts for Women, Men, and Kids</h3>
+          <p>
+            Start with a cut that matches your lifestyle. Then, keep it easy to manage at home.
+            A good haircut should hold shape longer, and it should still look great between visits.
+          </p>
+          <ul>
+            <li>Consultation first, so your stylist understands your goal</li>
+            <li>Precision cutting and clean detailing</li>
+            <li>Blow-dry and finishing style so you see the full result</li>
+          </ul>
+        </div>
+
+        <div class="tile">
+          <h3>Hair Color, Balayage, Highlights, and Corrections</h3>
+          <p>
+            Color should look natural in daylight and clean in photos. Also, it should fade evenly.
+            Therefore, the plan matters: tone, placement, and maintenance.
+          </p>
+          <ul>
+            <li>Root touch ups and full color</li>
+            <li>Dimensional looks like balayage and highlight/lowlight</li>
+            <li>Color correction options when you need a reset</li>
+            <li>Smoothing/strengthening style treatments when needed</li>
+          </ul>
+        </div>
+
+        <div class="tile">
+          <h3>Extensions for Volume and Length</h3>
+          <p>
+            If you want more length or fullness, extensions can help. However, the best results come from correct matching, placement, and care.
+            Because of that, it is smart to ask for a consultation first.
+          </p>
+          <ul>
+            <li>Options like halo, tape-in, and beaded methods may be available</li>
+            <li>Blend and cut-in for a natural finish</li>
+            <li>Care instructions so the hair lasts longer</li>
+          </ul>
+        </div>
+
+        <div class="tile">
+          <h3>Lash and Brow Services</h3>
+          <p>
+            Small details change your whole look. For example, lashes can help your eyes pop without daily mascara.
+            Similarly, brow services can sharpen your face shape.
+          </p>
+          <ul>
+            <li>Lash extensions, fills, lifts, and tinting</li>
+            <li>Brow lamination and brow tint options</li>
+            <li>Designed to match your style and comfort</li>
+          </ul>
+        </div>
+
+        <div class="tile">
+          <h3>Waxing and Hair Removal</h3>
+          <p>
+            Waxing should be efficient and consistent. Also, it should be done with care.
+            Therefore, the goal is comfort plus clean results.
+          </p>
+          <ul>
+            <li>Brows, face, underarms, arms, legs, chest, and more</li>
+            <li>Great add-on service during a hair appointment</li>
+            <li>Helpful for events, travel, or weekly routines</li>
+          </ul>
+        </div>
+
+        <div class="tile">
+          <h3>Tanning, Teeth Whitening, Permanent Jewelry, and Head Spa</h3>
+          <p>
+            Want a fresh glow or a more polished look? Then you can add services that upgrade the whole experience.
+            For example, spray tanning helps for special events, and a head spa can feel like a reset.
+          </p>
+          <ul>
+            <li>Spray tanning and UV tanning bed options</li>
+            <li>Teeth whitening for a brighter smile</li>
+            <li>Permanent jewelry for a custom look</li>
+            <li>Head spa treatments for relaxation and scalp care</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="panel" style="margin-top:16px">
+        <h3>How to choose the right appointment</h3>
+        <p>
+          First, decide your goal: maintenance or transformation. Next, consider timing.
+          If you want color plus a cut, plan extra time. Also, if it has been a while since your last visit, you may need a longer appointment.
+          Finally, if you are unsure, book a consultation so your stylist can map the best plan.
+        </p>
+        <div class="ctaRow" style="margin-top:14px">
+          <a class="btn" href="https://www.vagaro.com/anudohairandtanningsalon" target="_blank" rel="noopener">Book Online Now</a>
+          <a class="btn secondary" href="https://anudosalon.com/virtual-consultation/" target="_blank" rel="noopener">Virtual Consultation</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY -->
+  <section id="why">
+    <div class="wrap">
+      <div class="secTitle">
+        <div>
+          <h2>Why this Brighton CO hair salon partner is worth the visit</h2>
+          <p>
+            You want more than a quick haircut. You want results that feel right for you.
+            So, the best salons focus on consultation, consistency, and clear follow-through.
+          </p>
+        </div>
+      </div>
+
+      <div class="split">
+        <div class="panel">
+          <h3>What you should expect</h3>
+          <div class="steps">
+            <div class="step">
+              <div class="n">1</div>
+              <div>
+                <b>Clear consultation</b>
+                <span>Bring an idea, then align on a realistic plan, timing, and maintenance.</span>
+              </div>
+            </div>
+            <div class="step">
+              <div class="n">2</div>
+              <div>
+                <b>Intentional technique</b>
+                <span>Good technique shows in the grow-out. Also, it reduces the “two-week regret.”</span>
+              </div>
+            </div>
+            <div class="step">
+              <div class="n">3</div>
+              <div>
+                <b>Polished finish</b>
+                <span>You should leave with a style that looks great right away and still looks good tomorrow.</span>
+              </div>
+            </div>
+            <div class="step">
+              <div class="n">4</div>
+              <div>
+                <b>Simple upkeep</b>
+                <span>Aftercare should be clear, so you can keep your look longer between visits.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>Local SEO note (why this page exists)</h3>
+          <p>
+            This one-page funnel site is built to help people searching for a <strong>Brighton CO hair salon</strong> find fast contact details and service direction.
+            Then, it routes you to the official booking and service pages for full accuracy.
+            As a result, you get speed and clarity, while the main site remains the source of truth.
+          </p>
+          <p style="margin-top:10px">
+            Additionally, this page includes local context for nearby communities like Henderson, Fort Lupton, Lochbuie, Commerce City, and Thornton.
+            That matters because people often search by nearby areas, not just by “Brighton.”
+          </p>
+
+          <div class="ctaRow" style="margin-top:14px">
+            <a class="btn" href="tel:+13038352375">Call (303) 835-2375</a>
+            <a class="btn secondary" href="https://anudosalon.com/" target="_blank" rel="noopener">Go to AnudoSalon.com</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="panel" style="margin-top:14px">
+        <h3>Secondary keyword focus: Brighton CO hair color and highlights</h3>
+        <p>
+          While the primary keyword is <strong>Brighton CO hair salon</strong>, a strong secondary focus is <strong>Brighton CO hair color</strong> (including highlights and balayage).
+          This is high-intent traffic. It usually converts well because the visitor already knows what they want.
+          Therefore, the page emphasizes color planning, maintenance, and consultation.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- LOCATION -->
+  <section id="location">
+    <div class="wrap">
+      <div class="secTitle">
+        <div>
+          <h2>Brighton, CO location and directions</h2>
+          <p>
+            The salon is located near downtown Brighton at <strong>119 W. Bridge St., Unit C, Brighton, CO 80601</strong>.
+            If you are coming from nearby areas, it is a quick drive from Henderson, Fort Lupton, and the Prairie Center area.
+          </p>
+        </div>
+        <a class="btn small secondary" href="https://maps.app.goo.gl/" target="_blank" rel="noopener">Open Maps</a>
+      </div>
+
+      <div class="split">
+        <div class="panel">
+          <h3>Contact details</h3>
+          <p><strong>Phone:</strong> <a href="tel:+13038352375">(303) 835-2375</a></p>
+          <p><strong>Email:</strong> <a href="mailto:anudo.salon@gmail.com">anudo.salon@gmail.com</a></p>
+          <p><strong>Address:</strong> 119 W. Bridge St., Unit C, Brighton, CO 80601</p>
+          <p><strong>Hours:</strong> Wed - Fri 9:00 AM - 7:00 PM; Sat 9:00 AM - 4:00 PM; Closed Sun/Mon/Tue</p>
+
+          <div class="ctaRow" style="margin-top:12px">
+            <a class="btn" href="https://www.vagaro.com/anudohairandtanningsalon" target="_blank" rel="noopener">Book Online</a>
+            <a class="btn secondary" href="https://anudosalon.com/contact/" target="_blank" rel="noopener">Official Contact Page</a>
+          </div>
+        </div>
+
+        <div class="panel">
+          <h3>Best times to book</h3>
+          <p>
+            If you want prime spots, book earlier in the week. Also, if you need color plus a cut, plan a longer window.
+            For events, book ahead. Then, add a buffer day in case you want small tweaks.
+          </p>
+          <p style="margin-top:10px">
+            Additionally, consider combining services. For example, you can do hair and wax in one trip.
+            That saves time and keeps your schedule cleaner.
+          </p>
+          <div class="ctaRow" style="margin-top:12px">
+            <a class="btn secondary" href="#services">See Service Options</a>
+            <a class="btn" href="tel:+13038352375">Call to Schedule</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section id="faq">
+    <div class="wrap">
+      <div class="secTitle">
+        <div>
+          <h2>FAQ</h2>
+          <p>
+            These answers are here to help you book faster. For full service pricing, always check the official service page or booking system.
+          </p>
+        </div>
+        <a class="btn small" href="https://anudosalon.com/services/" target="_blank" rel="noopener">Official Menu</a>
+      </div>
+
+      <div class="faq" aria-label="Frequently Asked Questions">
+        <details>
+          <summary>
+            What services can I book?
+            <span class="chev" aria-hidden="true">+</span>
+          </summary>
+          <p>
+            You can book haircuts, hair color (including balayage and highlight styles), extensions, lash and brow services, waxing, spray tanning, UV tanning beds, teeth whitening, permanent jewelry, and head spa treatments.
+          </p>
+        </details>
+
+        <details>
+          <summary>
+            How do I book the fastest?
+            <span class="chev" aria-hidden="true">+</span>
+          </summary>
+          <p>
+            Call <a href="tel:+13038352375">(303) 835-2375</a> for the fastest route, especially if you are unsure which appointment to choose.
+            Otherwise, use the Book Online button to jump into the official booking flow.
+          </p>
+        </details>
+
+        <details>
+          <summary>
+            Where are you located in Brighton?
+            <span class="chev" aria-hidden="true">+</span>
+          </summary>
+          <p>
+            119 W. Bridge St., Unit C, Brighton, CO 80601. This is near downtown Brighton and it is accessible from nearby communities like Henderson and Fort Lupton.
+          </p>
+        </details>
+
+        <details>
+          <summary>
+            What are the hours?
+            <span class="chev" aria-hidden="true">+</span>
+          </summary>
+          <p>
+            Wed through Fri: 9:00 AM to 7:00 PM. Saturday: 9:00 AM to 4:00 PM. Closed Monday, Tuesday, and Sunday.
+          </p>
+        </details>
+
+        <details>
+          <summary>
+            I want color. What should I do first?
+            <span class="chev" aria-hidden="true">+</span>
+          </summary>
+          <p>
+            First, think about your goal: cover grays, brighten, go darker, or add dimension. Next, consider maintenance.
+            If you want a lower upkeep plan, ask about a dimensional approach that grows out softer. If you want a bigger change, consider a consultation first.
+          </p>
+        </details>
+
+        <details>
+          <summary>
+            Can I combine services in one visit?
+            <span class="chev" aria-hidden="true">+</span>
+          </summary>
+          <p>
+            Often, yes. For example, you can pair a haircut with waxing, or book lashes separate from a longer color appointment.
+            When in doubt, call and they will guide you to the best schedule.
+          </p>
+        </details>
+      </div>
+
+      <div class="panel" style="margin-top:14px">
+        <h3>Ready to book?</h3>
+        <p>
+          If you want a clean cut, refreshed color, or a full beauty reset, take the next step now.
+          You can call for guidance, or you can book online immediately.
+        </p>
+        <div class="ctaRow" style="margin-top:12px">
+          <a class="btn" href="tel:+13038352375">Call (303) 835-2375</a>
+          <a class="btn secondary" href="https://www.vagaro.com/anudohairandtanningsalon" target="_blank" rel="noopener">Book Online</a>
+          <a class="btn secondary" href="https://anudosalon.com/" target="_blank" rel="noopener">Visit Main Website</a>
+        </div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <div class="foot">
+      <div class="mini">
+        <b>BrightonCOHairSalon.com</b><br/>
+        Partner funnel site pointing to the official brand site: <a href="https://anudosalon.com/" target="_blank" rel="noopener">AnudoSalon.com</a>
+      </div>
+      <div class="mini">
+        <a href="/sitemap.xml">XML Sitemap</a> &nbsp;|&nbsp;
+        <a href="/robots.txt">Robots</a>
+      </div>
+      <div class="mini">
+        Copyright 2026
+      </div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  // Improve FAQ icon toggle without using special characters that can render as black boxes
+  (function(){
+    const details = document.querySelectorAll("details");
+    details.forEach(d => {
+      const s = d.querySelector("summary");
+      const c = d.querySelector(".chev");
+      if(!s || !c) return;
+      const update = () => { c.textContent = d.open ? "-" : "+"; };
+      d.addEventListener("toggle", update);
+      update();
+    });
+  })();
+</script>
+</body>
+</html>
