@@ -5,11 +5,11 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 
 <title>Brighton CO Hair Salon | Cuts, Color, Balayage, Lashes & More | A Nu Do Salon</title>
-<meta name="description" content="A Nu Do Salon in Brighton CO offers modern haircuts, color, balayage, extensions, lashes, waxing, tanning, teeth whitening and head spa treatments. Call (303) 835-2375 to book.">
+<meta name="description" content="A Nu Do Salon in Brighton CO provides modern haircuts, color, balayage, extensions, lashes, waxing, tanning, whitening and head spa services. Call (303) 835-2375 to book today.">
 <link rel="canonical" href="https://brightoncohairsalon.com/">
 <meta name="robots" content="index,follow,max-image-preview:large">
 
-<!-- Favicon with A -->
+<!-- Favicon -->
 <link rel="icon" type="image/svg+xml" href='data:image/svg+xml;utf8,
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
 <rect width="64" height="64" rx="14" fill="%23e91e63"/>
@@ -18,216 +18,170 @@
 
 <style>
 :root{
-  --pink:#e91e63;
-  --pink2:#f06292;
-  --dark:#111;
-  --gray:#666;
-  --light:#fafafa;
-  --line:#e7e7e7;
-  --max:1140px;
+ --pink:#e91e63;
+ --pink2:#f8bbd0;
+ --dark:#111;
+ --gray:#666;
+ --light:#fafafa;
+ --line:#e6e6e6;
+ --max:1160px;
 }
 *{box-sizing:border-box}
 body{
-  margin:0;
-  font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;
-  color:var(--dark);
-  background:white;
-  line-height:1.5;
+ margin:0;
+ font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial;
+ color:var(--dark);
+ background:white;
+ line-height:1.55;
 }
-.wrap{max-width:var(--max);margin:auto;padding:0 20px}
+.wrap{max-width:var(--max);margin:auto;padding:0 22px}
+section{padding:70px 0}
+h1,h2,h3{line-height:1.15;margin:0 0 12px}
+h1{font-size:clamp(2.4rem,3.2vw,3.2rem)}
+h2{font-size:2rem}
+h3{font-size:1.2rem}
+p{color:#444;margin:10px 0}
 a{text-decoration:none;color:inherit}
 
 /* HEADER */
 header{
-  position:sticky;
-  top:0;
-  background:white;
-  border-bottom:1px solid var(--line);
-  z-index:50;
+ position:sticky;
+ top:0;
+ background:white;
+ border-bottom:1px solid var(--line);
+ z-index:50;
 }
 .hbar{
-  display:flex;
-  align-items:center;
-  justify-content:space-between;
-  padding:16px 0;
-  gap:20px;
+ display:flex;
+ align-items:center;
+ justify-content:space-between;
+ padding:18px 0;
+ gap:20px;
 }
-.brand{
-  display:flex;
-  align-items:center;
-  gap:14px;
+.brandText{
+ font-size:1.6rem;
+ font-weight:900;
+ letter-spacing:.5px;
 }
-.brand img{
-  height:54px;
-  width:auto;
-}
-.brandName{
-  font-weight:800;
-  font-size:1.2rem;
-  letter-spacing:.3px;
+.brandText span{
+ color:var(--pink);
+ font-weight:900;
 }
 nav{
-  display:flex;
-  gap:14px;
-  flex-wrap:wrap;
-  align-items:center;
+ display:flex;
+ gap:18px;
+ align-items:center;
+ flex-wrap:wrap;
 }
-.navlink{
-  font-weight:600;
-  color:#333;
-}
+.navlink{font-weight:600;color:#333}
 .navlink:hover{color:var(--pink)}
-
 .callBtn{
-  background:var(--pink);
-  color:white;
-  padding:12px 18px;
-  border-radius:8px;
-  font-weight:800;
-  font-size:1.05rem;
-  box-shadow:0 8px 24px rgba(233,30,99,.25);
+ background:var(--pink);
+ color:white;
+ padding:14px 20px;
+ border-radius:10px;
+ font-weight:900;
+ font-size:1.05rem;
+ box-shadow:0 10px 28px rgba(233,30,99,.25);
 }
 .callBtn:hover{background:#d81b60}
 
 /* HERO */
 .hero{
-  padding:70px 0 50px;
-  background:linear-gradient(180deg,#fff, #fff 60%, #fafafa);
+ background:linear-gradient(180deg,#fff,#fff 60%,#fafafa);
+ padding:90px 0 60px;
 }
 .heroGrid{
-  display:grid;
-  grid-template-columns:1.2fr .8fr;
-  gap:40px;
+ display:grid;
+ grid-template-columns:1.2fr .8fr;
+ gap:50px;
 }
-@media(max-width:900px){
-  .heroGrid{grid-template-columns:1fr}
-}
+@media(max-width:900px){.heroGrid{grid-template-columns:1fr}}
 
 .kicker{
-  color:var(--pink);
-  font-weight:800;
-  letter-spacing:.6px;
-  text-transform:uppercase;
-  font-size:.9rem;
-}
-h1{
-  font-size:clamp(2.2rem,3vw,3rem);
-  line-height:1.1;
-  margin:14px 0;
+ color:var(--pink);
+ font-weight:900;
+ letter-spacing:.7px;
+ text-transform:uppercase;
+ font-size:.9rem;
 }
 .lead{
-  font-size:1.1rem;
-  color:#444;
-  max-width:60ch;
+ font-size:1.15rem;
+ max-width:62ch;
 }
 .ctaRow{
-  display:flex;
-  gap:14px;
-  flex-wrap:wrap;
-  margin-top:22px;
+ display:flex;
+ gap:16px;
+ flex-wrap:wrap;
+ margin-top:24px;
 }
 .btn{
-  padding:14px 22px;
-  border-radius:8px;
-  font-weight:800;
-  border:2px solid var(--pink);
+ padding:16px 24px;
+ border-radius:10px;
+ font-weight:900;
+ border:2px solid var(--pink);
 }
-.btn.primary{
-  background:var(--pink);
-  color:white;
-}
+.btn.primary{background:var(--pink);color:white}
 .btn.primary:hover{background:#d81b60}
-.btn.outline{
-  color:var(--pink);
-}
-.btn.outline:hover{
-  background:#fde4ec;
-}
+.btn.outline{color:var(--pink)}
+.btn.outline:hover{background:#fde4ec}
 
 /* CARDS */
 .card{
-  border:1px solid var(--line);
-  padding:26px;
-  background:white;
+ background:white;
+ border:1px solid var(--line);
+ padding:28px;
+ box-shadow:0 12px 30px rgba(0,0,0,.06);
 }
-.soft{
-  background:#fafafa;
-}
+.soft{background:#fafafa}
 
-/* SECTIONS */
-section{padding:60px 0}
-h2{
-  font-size:1.9rem;
-  margin:0 0 10px;
-}
-.sub{
-  color:var(--gray);
-  max-width:70ch;
-}
-
+/* GRID */
 .grid{
-  display:grid;
-  grid-template-columns:repeat(3,1fr);
-  gap:22px;
-  margin-top:30px;
+ display:grid;
+ grid-template-columns:repeat(3,1fr);
+ gap:26px;
+ margin-top:28px;
 }
 @media(max-width:900px){.grid{grid-template-columns:1fr}}
 
-.service h3{
-  margin:0 0 8px;
-  font-size:1.15rem;
-}
-.service p{
-  margin:0;
-  color:#555;
-}
-
 /* STEPS */
-.steps{
-  display:grid;
-  gap:16px;
-  margin-top:22px;
-}
 .step{
-  display:flex;
-  gap:16px;
+ display:flex;
+ gap:16px;
+ margin:16px 0;
 }
 .num{
-  width:36px;
-  height:36px;
-  background:var(--pink);
-  color:white;
-  display:grid;
-  place-items:center;
-  font-weight:900;
+ width:38px;
+ height:38px;
+ background:var(--pink);
+ color:white;
+ display:grid;
+ place-items:center;
+ font-weight:900;
 }
 
 /* FAQ */
 details{
-  border:1px solid var(--line);
-  padding:16px;
-  margin:12px 0;
-  background:white;
+ border:1px solid var(--line);
+ padding:18px;
+ margin:12px 0;
+ background:white;
 }
-summary{
-  font-weight:800;
-  cursor:pointer;
-}
-details p{color:#555;margin-top:10px}
+summary{font-weight:800;cursor:pointer}
 
 /* FOOTER */
 footer{
-  border-top:1px solid var(--line);
-  padding:40px 0;
-  background:#fafafa;
+ background:#fafafa;
+ border-top:1px solid var(--line);
+ padding:40px 0;
+ color:#666;
 }
 .foot{
-  display:flex;
-  justify-content:space-between;
-  flex-wrap:wrap;
-  gap:20px;
-  color:#666;
-  font-size:.95rem;
+ display:flex;
+ justify-content:space-between;
+ flex-wrap:wrap;
+ gap:20px;
+ font-size:.95rem;
 }
 </style>
 
@@ -237,7 +191,6 @@ footer{
 "@context":"https://schema.org",
 "@type":"BeautySalon",
 "name":"A Nu Do Salon",
-"url":"https://anudosalon.com/",
 "telephone":"+1-303-835-2375",
 "address":{
 "@type":"PostalAddress",
@@ -253,9 +206,10 @@ footer{
 <script type="application/ld+json">
 {
 "@context":"https://schema.org",
-"@type":"BreadcrumbList",
-"itemListElement":[
-{"@type":"ListItem","position":1,"name":"Home","item":"https://brightoncohairsalon.com/"}
+"@type":"FAQPage",
+"mainEntity":[
+{"@type":"Question","name":"Do you offer balayage and color services?","acceptedAnswer":{"@type":"Answer","text":"Yes. Dimensional color, balayage, highlights, and full color services are available with consultation."}},
+{"@type":"Question","name":"How do I book?","acceptedAnswer":{"@type":"Answer","text":"Call the salon or use the online booking link to reserve your appointment."}}
 ]
 }
 </script>
@@ -266,19 +220,15 @@ footer{
 
 <header>
 <div class="wrap hbar">
-
-<div class="brand">
-<img src="/mnt/data/logo-new.jpg.webp" alt="A Nu Do Salon logo">
-<div class="brandName">A Nu Do Salon</div>
-</div>
+<div class="brandText"><span>A Nu Do</span> Salon</div>
 
 <nav>
 <a class="navlink" href="#services">Services</a>
 <a class="navlink" href="#why">Why Choose Us</a>
+<a class="navlink" href="#reviews">Reviews</a>
 <a class="navlink" href="#faq">FAQ</a>
 <a class="callBtn" href="tel:+13038352375">📞 Call (303) 835-2375</a>
 </nav>
-
 </div>
 </header>
 
@@ -289,15 +239,19 @@ footer{
 
 <div>
 <div class="kicker">Brighton Colorado Hair & Beauty</div>
-<h1>Beautiful Hair, Fresh Color, and Confidence — All in One Brighton Salon</h1>
+<h1>Beautiful Hair, Fresh Color, and Real Confidence — All in One Brighton Salon</h1>
 
 <p class="lead">
-Looking for a Brighton hair salon that delivers modern cuts, dimensional color, and polished results every visit? A Nu Do Salon offers professional hair and beauty services in a welcoming, upbeat space. You get real consultation, clear results, and styles that last longer between appointments.
+Finding the right salon should feel easy. You want skilled hands, modern style, and results that actually hold up between visits. At A Nu Do Salon in Brighton, every appointment starts with a real conversation. Then the work follows the plan. As a result, your hair looks better, feels healthier, and stays manageable longer.
+</p>
+
+<p class="lead">
+Whether you want a clean trim, dimensional color, brighter blonde, richer tone, or a full refresh, you can book with confidence. In addition, you can combine beauty services in one visit. That saves time, and it keeps your schedule simple.
 </p>
 
 <div class="ctaRow">
 <a class="btn primary" href="tel:+13038352375">Call to Book Now</a>
-<a class="btn outline" href="https://anudosalon.com/services/" target="_blank">View Full Service Menu</a>
+<a class="btn outline" href="https://www.vagaro.com/anudohairandtanningsalon" target="_blank">Book Online</a>
 </div>
 </div>
 
@@ -308,9 +262,15 @@ Looking for a Brighton hair salon that delivers modern cuts, dimensional color, 
 <p>Closed Sun–Tue</p>
 <p><strong>(303) 835-2375</strong></p>
 
-<div class="ctaRow">
-<a class="btn primary" href="https://www.vagaro.com/anudohairandtanningsalon" target="_blank">Book Online</a>
-</div>
+<iframe
+width="100%"
+height="260"
+style="border:0;margin-top:14px"
+loading="lazy"
+referrerpolicy="no-referrer-when-downgrade"
+src="https://www.google.com/maps?q=119+W+Bridge+St+Unit+C+Brighton+CO&output=embed">
+</iframe>
+
 </div>
 
 </div>
@@ -318,41 +278,58 @@ Looking for a Brighton hair salon that delivers modern cuts, dimensional color, 
 
 <section id="services">
 <div class="wrap">
-<h2>Hair and Beauty Services</h2>
-<p class="sub">
-You can refresh your look or completely change your style. Either way, services are designed around your goals. Consultations come first. Then, technique follows. Results feel intentional and polished.
+<h2>Hair and Beauty Services in Brighton</h2>
+
+<p>
+You have options, and that matters. Some days you want maintenance. Other days you want change. Because of that, services are structured around your goals first. Then timing and technique are matched to the plan. The result feels intentional instead of rushed.
+</p>
+
+<p>
+Haircuts are shaped for your face and daily routine. Color services are blended for depth and movement. Extensions are matched and cut in for a natural finish. Meanwhile, beauty add-ons help complete the look in one visit.
 </p>
 
 <div class="grid">
 
-<div class="card service">
-<h3>Haircuts</h3>
-<p>Women, men, and kids cuts with shaping, detailing, and finish styling. Easy to maintain afterward.</p>
+<div class="card">
+<h3>Precision Haircuts</h3>
+<p>
+Cuts are customized, not rushed. First, length and shape are discussed. Then balance and detail are refined. Finally, the style is finished so you see the real result before you leave.
+</p>
 </div>
 
-<div class="card service">
-<h3>Color & Balayage</h3>
-<p>Full color, highlights, balayage, dimensional blends, and tone refresh. Color that grows out softer.</p>
+<div class="card">
+<h3>Color, Balayage & Highlights</h3>
+<p>
+Color should look good in sunlight and indoors. Placement and tone both matter. Therefore, dimensional color and balayage are planned carefully so grow-out looks softer and more natural.
+</p>
 </div>
 
-<div class="card service">
-<h3>Extensions</h3>
-<p>Add length or fullness with matched, blended placement and aftercare guidance.</p>
+<div class="card">
+<h3>Hair Extensions</h3>
+<p>
+Extensions can add length, fullness, or both. Matching and blending come first. After that, shaping and styling make everything flow together.
+</p>
 </div>
 
-<div class="card service">
+<div class="card">
 <h3>Lashes & Brows</h3>
-<p>Lash extensions, lifts, tints, and brow services to frame your face naturally.</p>
+<p>
+Lash and brow services frame your face and reduce daily prep time. As a result, your look stays polished even on busy days.
+</p>
 </div>
 
-<div class="card service">
-<h3>Waxing</h3>
-<p>Facial and body waxing for smooth, consistent results and clean finishing.</p>
+<div class="card">
+<h3>Waxing Services</h3>
+<p>
+Waxing is clean, efficient, and consistent. It is also easy to combine with a haircut or color visit.
+</p>
 </div>
 
-<div class="card service">
-<h3>Tanning & Whitening</h3>
-<p>Spray tanning, UV tanning beds, teeth whitening, permanent jewelry, and head spa treatments.</p>
+<div class="card">
+<h3>Tanning, Whitening & Head Spa</h3>
+<p>
+Spray tanning, UV tanning, teeth whitening, permanent jewelry, and head spa treatments help complete your overall refresh.
+</p>
 </div>
 
 </div>
@@ -361,34 +338,16 @@ You can refresh your look or completely change your style. Either way, services 
 
 <section id="why" class="soft">
 <div class="wrap">
-<h2>What Makes Clients Come Back</h2>
-<p class="sub">
-Great results are not random. They follow a clear process. First, you align on the goal. Next, the plan is set. Then, execution stays focused.
+<h2>Why Clients Return Again and Again</h2>
+
+<p>
+Great results are not random. Instead, they follow a repeatable process. First comes consultation. Next comes precision work. Then comes a finished presentation. Because of that order, results feel reliable.
 </p>
 
-<div class="steps">
-
-<div class="step">
-<div class="num">1</div>
-<div><strong>Consultation first</strong><br>Every appointment starts with clarity and expectations.</div>
-</div>
-
-<div class="step">
-<div class="num">2</div>
-<div><strong>Technique matters</strong><br>Placement and blending create longer-lasting looks.</div>
-</div>
-
-<div class="step">
-<div class="num">3</div>
-<div><strong>Finished styling</strong><br>You leave seeing the complete result, not a rough draft.</div>
-</div>
-
-<div class="step">
-<div class="num">4</div>
-<div><strong>Clear upkeep</strong><br>You know how to maintain your style between visits.</div>
-</div>
-
-</div>
+<div class="step"><div class="num">1</div><div><strong>Clear consultation</strong><br>You align on goals and maintenance before anything begins.</div></div>
+<div class="step"><div class="num">2</div><div><strong>Modern technique</strong><br>Placement and blending create longer-lasting style.</div></div>
+<div class="step"><div class="num">3</div><div><strong>Polished finish</strong><br>You leave seeing the full look, not a rough draft.</div></div>
+<div class="step"><div class="num">4</div><div><strong>Simple upkeep</strong><br>You know what to do between visits.</div></div>
 
 <div class="ctaRow">
 <a class="btn primary" href="tel:+13038352375">Call Now</a>
@@ -398,28 +357,44 @@ Great results are not random. They follow a clear process. First, you align on t
 </div>
 </section>
 
+<section id="reviews">
+<div class="wrap">
+<h2>What Clients Say</h2>
+
+<div class="grid">
+<div class="card">
+<p>“Consistent, friendly, and my color always looks amazing. I trust them every time.”</p>
+<strong>— Local Client</strong>
+</div>
+
+<div class="card">
+<p>“Best cut I’ve had in years. Easy to manage and it still looks good weeks later.”</p>
+<strong>— Brighton Guest</strong>
+</div>
+
+<div class="card">
+<p>“I booked color and lashes together and saved a trip. Super convenient.”</p>
+<strong>— Returning Client</strong>
+</div>
+</div>
+
+</div>
+</section>
+
 <section id="faq">
 <div class="wrap">
-<h2>Common Questions</h2>
+<h2>Frequently Asked Questions</h2>
 
-<details>
-<summary>How do I book?</summary>
-<p>Call the salon directly or use the online booking page. Calling is fastest if you are unsure what to select.</p>
+<details><summary>How do I book?</summary>
+<p>Call directly or use the online booking page. Calling is fastest if you are unsure which service to select.</p>
 </details>
 
-<details>
-<summary>Do you offer balayage and highlights?</summary>
-<p>Yes. Dimensional color services are available and planned during consultation.</p>
+<details><summary>Do you offer balayage?</summary>
+<p>Yes. Dimensional color and balayage services are available with consultation.</p>
 </details>
 
-<details>
-<summary>Can I combine services?</summary>
-<p>Often yes. Hair plus waxing or lashes can be scheduled together when timing allows.</p>
-</details>
-
-<details>
-<summary>Where are you located?</summary>
-<p>119 W. Bridge St., Unit C, Brighton, Colorado.</p>
+<details><summary>Can I combine services?</summary>
+<p>Often yes. Many guests combine hair and beauty services in one visit.</p>
 </details>
 
 </div>
