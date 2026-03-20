@@ -648,54 +648,76 @@ footer{background:var(--ink);color:rgba(255,255,255,.5);padding:48px 0 32px}
 <!-- ══════════════════════════════
      HERO
 ══════════════════════════════ -->
-<section class="hero" aria-label="Hero section" style="display:block;background:var(--ink);padding:0;min-height:0;">
-<div style="display:grid;grid-template-columns:1fr 1fr;width:100%;min-height:580px;">
-  <!-- LEFT: text -->
-  <div style="background:var(--ink);display:flex;align-items:center;padding:80px 48px 80px 24px;">
-    <div style="max-width:560px;margin-left:auto;">
-      <div class="kicker">Brighton, Colorado's Premier Salon</div>
-      <h1 style="color:white;margin-bottom:22px;">Beautiful Hair.<br><em>Real Confidence.</em><br>One Brighton Salon.</h1>
-      <p class="hero-lead">
-        At A Nu Do Salon, every appointment begins with a real conversation — because your hair, your style, and your lifestyle are unique. From precision cuts to dimensional balayage, Babe extensions to lash enhancements, we deliver results that look incredible and stay manageable between visits.
-      </p>
-      <div class="cta-row">
-        <a class="btn btn-primary" href="tel:+13038352375">📞 Call to Book</a>
-        <a class="btn btn-outline" href="https://www.vagaro.com/anudohairandtanningsalon" target="_blank" rel="noopener">Book Online</a>
+<style>
+.hero-wrap{background:var(--ink);width:100%}
+.hero-img-top{width:100%;height:300px;object-fit:cover;object-position:center top;display:block}
+.hero-text-box{padding:48px 24px 40px;text-align:center}
+.hero-text-box .kicker{display:block;margin-bottom:16px}
+.hero-text-box h1{color:white;margin-bottom:18px}
+.hero-text-box .hero-lead{color:rgba(255,255,255,.78);margin-bottom:24px;max-width:100%}
+.hero-text-box .cta-row{justify-content:center}
+.hero-text-box .trust-row{justify-content:center}
+@media(min-width:860px){
+  .hero-wrap{display:flex;min-height:600px}
+  .hero-img-top{display:none}
+  .hero-desktop-img{display:block !important}
+  .hero-text-box{flex:1;display:flex;flex-direction:column;justify-content:center;padding:80px 56px 80px 48px;text-align:left;max-width:600px}
+  .hero-text-box .cta-row{justify-content:flex-start}
+  .hero-text-box .trust-row{justify-content:flex-start}
+  .hero-text-box .kicker{display:inline-block}
+}
+.hero-desktop-img{
+  display:none;
+  flex:1;
+  overflow:hidden;
+  position:relative;
+}
+.hero-desktop-img img{width:100%;height:100%;object-fit:cover;object-position:center top;display:block}
+.hero-desktop-img::before{
+  content:'';position:absolute;left:0;top:0;bottom:0;width:80px;
+  background:linear-gradient(to right,var(--ink),transparent);
+  z-index:1;pointer-events:none;
+}
+</style>
+
+<section class="hero-wrap" aria-label="Hero — A Nu Do Salon Brighton CO">
+  <!-- Mobile: image on top -->
+  <img class="hero-img-top"
+       src="https://anudosalon.com/wp-content/uploads/2025/03/gallery-3.jpg"
+       alt="Woman with beautiful long hair at A Nu Do Salon in Brighton CO"
+       loading="eager" fetchpriority="high">
+  <!-- Text block -->
+  <div class="hero-text-box">
+    <div class="kicker">Brighton, Colorado's Premier Salon</div>
+    <h1>Beautiful Hair.<br><em>Real Confidence.</em><br>One Brighton Salon.</h1>
+    <p class="hero-lead">
+      At A Nu Do Salon, every appointment begins with a real conversation — because your hair, your style, and your lifestyle are unique. From precision cuts to dimensional balayage, Babe extensions to lash enhancements, we deliver results that look incredible and stay manageable between visits.
+    </p>
+    <div class="cta-row">
+      <a class="btn btn-primary" href="tel:+13038352375">📞 Call to Book</a>
+      <a class="btn btn-outline" href="https://www.vagaro.com/anudohairandtanningsalon" target="_blank" rel="noopener">Book Online</a>
+    </div>
+    <div class="trust-row">
+      <div class="trust-item">
+        <svg width="18" height="18" fill="none" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="#b5883d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Full-Service Salon
       </div>
-      <div class="trust-row">
-        <div class="trust-item">
-          <svg width="18" height="18" fill="none" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="#b5883d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          Full-Service Salon
-        </div>
-        <div class="trust-item">
-          <svg width="18" height="18" fill="none" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="#b5883d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          Expert Colorists
-        </div>
-        <div class="trust-item">
-          <svg width="18" height="18" fill="none" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="#b5883d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
-          Eufora Product Line
-        </div>
+      <div class="trust-item">
+        <svg width="18" height="18" fill="none" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="#b5883d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Expert Colorists
+      </div>
+      <div class="trust-item">
+        <svg width="18" height="18" fill="none" viewBox="0 0 24 24"><path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke="#b5883d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Eufora Product Line
       </div>
     </div>
   </div>
-  <!-- RIGHT: image fills full column height -->
-  <div style="position:relative;overflow:hidden;min-height:580px;">
+  <!-- Desktop: image on right -->
+  <div class="hero-desktop-img">
     <img src="https://anudosalon.com/wp-content/uploads/2025/03/gallery-3.jpg"
          alt="Woman with beautiful long hair at A Nu Do Salon in Brighton CO"
-         style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;object-position:center top;"
-         loading="eager" fetchpriority="high">
-    <div style="position:absolute;left:0;top:0;bottom:0;width:80px;background:linear-gradient(to right,var(--ink),transparent);z-index:1;pointer-events:none;"></div>
+         loading="eager">
   </div>
-</div>
-<!-- Mobile stacked layout -->
-<style>
-@media(max-width:860px){
-  .hero-split{grid-template-columns:1fr !important}
-  .hero-split .hero-right{height:320px;min-height:unset}
-  .hero-split .hero-left{padding:56px 24px 36px !important}
-  .hero-split .hero-left > div{max-width:100% !important;margin-left:0 !important}
-}
-</style>
 </section>
 
 <!-- INFO STRIP -->
@@ -722,38 +744,56 @@ footer{background:var(--ink);color:rgba(255,255,255,.5);padding:48px 0 32px}
 <!-- ══════════════════════════════
      GALLERY STRIP
 ══════════════════════════════ -->
-<div style="background:#f0e8eb;line-height:0;">
-  <div class="gallery-flex" style="display:flex;gap:4px;height:440px;">
-    <!-- Left: salon interior, full height -->
-    <div style="flex:2;overflow:hidden;min-width:0;">
+<style>
+.gal-strip{background:#f0e8eb;padding:0;line-height:0}
+.gal-strip img{display:block;object-fit:cover;width:100%}
+/* Mobile: 2x2 grid with salon shot spanning top full-width */
+.gal-mobile{display:grid;grid-template-columns:1fr 1fr;gap:3px}
+.gal-mobile .gal-wide{grid-column:1/-1}
+.gal-mobile img{height:180px}
+.gal-mobile .gal-wide img{height:240px}
+/* Desktop: salon shot left tall, 2x2 grid right */
+.gal-desktop{display:none}
+@media(min-width:700px){
+  .gal-mobile{display:none}
+  .gal-desktop{display:flex;gap:3px;height:420px}
+  .gal-desktop .gal-left img{height:420px;width:100%}
+  .gal-desktop .gal-right{flex:1;display:grid;grid-template-columns:1fr 1fr;grid-template-rows:1fr 1fr;gap:3px;min-width:0}
+  .gal-desktop .gal-right img{height:100%;min-height:0}
+}
+</style>
+
+<div class="gal-strip">
+  <!-- MOBILE layout -->
+  <div class="gal-mobile">
+    <div class="gal-wide">
       <img src="https://anudosalon.com/wp-content/uploads/2025/04/67ec7b506b6c7_IMG_9408-scaled.jpeg"
-           alt="Inside A Nu Do Salon — Brighton, CO hair salon"
-           style="width:100%;height:440px;object-fit:cover;" loading="lazy">
+           alt="Inside A Nu Do Salon — Brighton CO" loading="lazy">
     </div>
-    <!-- Right: 2 columns of 2 stacked images each -->
-    <div style="flex:1;display:flex;flex-direction:column;gap:4px;min-width:0;">
-      <div style="flex:1;overflow:hidden;">
-        <img src="https://anudosalon.com/wp-content/uploads/2025/03/1742982186420_IMAGE-51786_20_286_29.jpg"
-             alt="Babe hair extensions result at A Nu Do Salon"
-             style="width:100%;height:100%;object-fit:cover;display:block;" loading="lazy">
-      </div>
-      <div style="flex:1;overflow:hidden;">
-        <img src="https://anudosalon.com/wp-content/uploads/2025/03/Rectangle-28.png"
-             alt="Men's precision haircut with fade at A Nu Do Salon Brighton"
-             style="width:100%;height:100%;object-fit:cover;display:block;" loading="lazy">
-      </div>
+    <div><img src="https://anudosalon.com/wp-content/uploads/2025/03/1742982186420_IMAGE-51786_20_286_29.jpg"
+         alt="Babe hair extensions — A Nu Do Salon" loading="lazy"></div>
+    <div><img src="https://anudosalon.com/wp-content/uploads/2025/03/gallery-1.jpg"
+         alt="Long blonde wavy hair — A Nu Do Salon" loading="lazy"></div>
+    <div><img src="https://anudosalon.com/wp-content/uploads/2025/03/Rectangle-28.png"
+         alt="Men's fade haircut — Brighton CO salon" loading="lazy"></div>
+    <div><img src="https://anudosalon.com/wp-content/uploads/2025/03/Rectangle-83-4.png"
+         alt="Hair color application — A Nu Do Salon" loading="lazy"></div>
+  </div>
+  <!-- DESKTOP layout -->
+  <div class="gal-desktop">
+    <div class="gal-left" style="flex:2;overflow:hidden;min-width:0">
+      <img src="https://anudosalon.com/wp-content/uploads/2025/04/67ec7b506b6c7_IMG_9408-scaled.jpeg"
+           alt="Inside A Nu Do Salon — Brighton CO" loading="lazy">
     </div>
-    <div style="flex:1;display:flex;flex-direction:column;gap:4px;min-width:0;">
-      <div style="flex:1;overflow:hidden;">
-        <img src="https://anudosalon.com/wp-content/uploads/2025/03/gallery-1.jpg"
-             alt="Woman with long blonde wavy hair — A Nu Do Salon"
-             style="width:100%;height:100%;object-fit:cover;display:block;" loading="lazy">
-      </div>
-      <div style="flex:1;overflow:hidden;">
-        <img src="https://anudosalon.com/wp-content/uploads/2025/03/Rectangle-83-4.png"
-             alt="Hair color and dye application — Brighton CO salon"
-             style="width:100%;height:100%;object-fit:cover;display:block;" loading="lazy">
-      </div>
+    <div class="gal-right" style="flex:2;min-width:0">
+      <img src="https://anudosalon.com/wp-content/uploads/2025/03/1742982186420_IMAGE-51786_20_286_29.jpg"
+           alt="Babe hair extensions — A Nu Do Salon" loading="lazy">
+      <img src="https://anudosalon.com/wp-content/uploads/2025/03/gallery-1.jpg"
+           alt="Long blonde wavy hair — A Nu Do Salon" loading="lazy">
+      <img src="https://anudosalon.com/wp-content/uploads/2025/03/Rectangle-28.png"
+           alt="Men's fade haircut — Brighton CO salon" loading="lazy">
+      <img src="https://anudosalon.com/wp-content/uploads/2025/03/Rectangle-83-4.png"
+           alt="Hair color application — A Nu Do Salon" loading="lazy">
     </div>
   </div>
 </div>
